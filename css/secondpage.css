@@ -1,0 +1,60 @@
+#pagina2{
+    color: black !important;
+    background-color: white !important;
+    font-family: Segoe UI;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+*{
+
+    background-color: white ;
+    color: black ;
+}
+
+#section2{
+    margin-top: 3%;
+    color: black !important;
+    background-color: white !important;
+    display: inline-block;
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 70%;
+    justify-content: center !important;
+    margin-left: 13% !important;
+}
+
+
+.card-group{
+    background-color: white !important;
+    color: black !important;
+    border: hidden !important;
+    width: 100% !important;
+}
+
+.card-body, .card-title, .card-text{
+    background-color: white !important;
+    color: black !important;
+    height: 100% !important;
+    border: hidden !important;
+}
+
+.card{
+    background-color: white !important;
+    color: black !important;
+    height: 100% !important;
+    border: hidden !important;
+}
+
+.card-title{
+    font-size: 25PX;
+    background-color: white !important;
+    color: black !important;
+}
+
+#sobre{
+    width: 75%;
+    background-color: white !important;
+    color: black !important;
+}

@@ -1,0 +1,72 @@
+
+*{
+    background-color: black !important;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo{
+    background-color: black !important;
+    margin-top: 50px;
+    border: 2px solid white;
+    width: 280px;
+    height: 280px;
+    border-radius: 170px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.theuz{
+    border-radius: 165px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black !important;
+}
+
+#nome{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: gainsboro 0.1em 0.1em 0.2em
+}
+
+#work{
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: gainsboro 0.1em 0.1em 0.2em;
+    margin-top: -25px;
+}
+
+.box-da-imagem{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.setaprabaixo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -1,0 +1,45 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header{
+    background-color: black !important;
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+    justify-content: center;
+    border: 0px transparent !important;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    display: inline-block;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    font-size: 17PX;
+    margin-top: 15px;
+    margin-left: 17PX;
+    justify-content: center;
+}
+
+button:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: transparent;
+    color: gainsboro;
+}
+
+.planet{
+   margin-left: 20px;
+   margin-top: 0px;
+}
