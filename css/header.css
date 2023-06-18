@@ -1,12 +1,12 @@
 html{
     overflow-x: hidden;
-    font-family: Segoe UI;
+    font-family: Segoe UI !important;
 }
 
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: black !important;
 }
 
 header{
@@ -15,15 +15,15 @@ header{
     width: 100%;
     margin-top: auto;
     justify-content: center;
-    border: 0px transparent !important;
+    border: 0px none !important;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
     display: inline-block;
 }
 
 button{
-    background-color: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
     border: transparent;
     font-weight: bold;
     font-family: "Segoe UI";
