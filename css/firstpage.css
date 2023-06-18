@@ -1,5 +1,5 @@
 
-*{
+#pagina1{
     background-color: black !important;
 }
 
@@ -13,7 +13,7 @@
 .circulo{
     background-color: black !important;
     margin-top: 50px;
-    border: 2px solid white;
+    border: 3px solid white !important;
     width: 280px;
     height: 280px;
     border-radius: 170px;
@@ -22,13 +22,17 @@
     text-align: center;
     margin-left: auto !important;
     margin-right: auto !important;
+    animation-name: pisca-pisca;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .theuz{
     border-radius: 165px;
     align-items: center;
     justify-content: center;
-    margin-top: 5.7px;
+    margin-top: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +40,8 @@
 }
 
 #nome{
-    color: white;
+    background-color: black !important;
+    color: white !important;
     font-weight: bold;
     font-size: 32px;
     text-align: center;
@@ -46,7 +51,8 @@
 }
 
 #work{
-    color: white;
+    background-color: black !important;
+    color: white !important;
     font-weight: bold;
     font-size: 29px;
     text-align: center;
@@ -57,6 +63,7 @@
 }
 
 .box-da-imagem{
+    background-color: black !important;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -70,3 +77,12 @@
     margin-right: auto;
 }
 
+@keyframes pisca-pisca {
+    from {
+      opacity:0.5
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
