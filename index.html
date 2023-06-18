@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/firstpage.css" />
         <link rel="stylesheet" href="./css/secondpage.css" />
+        <link rel="stylesheet" href="./css/thirdpage.css" />
         <script type="text/javascript" src="./js/language.js"></script>
         <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -19,10 +20,10 @@
         <header>
             <img class="planet" width="33px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZklEQVR4nO3WsYrCQBAG4AGLBEkRBQutzUNY5hX0EYQUYi9oKz5GuryBSCohTbAxVcQm4gOooCDBRv5j0q9uvAnHcffDVjs7HyxhskRE+KFF/zBUt2BZFmazGZIkwf1+L9Z2u8V0Oi32Krlqx3FwOBygSpZl6Ha7snC9Xsd+v8e77HY7mKYpB4/HY+hmNBrJwVEUacPr9VoOvlwu2vD5fJaDH4+HNsy1YvDxeNSG+csXg1erlTa8XC7lYM/ztOHhcCgHN5tN3G63t+j1ekWj0ZCDiagYle8ymUx0UWjDPJE2m40SjeMYhmHIw0SETqejhNvtdhkUpf/HqpTtQ78CHgwGSrjf78vCtVoNrusiCAI8n08lzHtcw7V85mO41+vB932cTieUDZ/hs9xDG261WgjDEFLhXtzzJcxT59Xz5tPws8i2bTW8WCxQVebzuRrmN1NVSdNUDed5Xhmc5/n3Bojgor8FfwE4uOdkhykjmQAAAABJRU5ErkJggg==">
             <button id="portugues" onclick="ptbr()">Português</button>
-            <button id="ingles" onclick="ingles()">Inglês</button>
+            <button id="ingles" onclick="zinga()">Inglês</button>
         </header>
 
-        <div class="section">
+        <div class="section" id="pagina1">
             <div class="circulo">
                 <img src="https://avatars.githubusercontent.com/u/108310425?v=4" width="265" height="265" class="theuz">
             </div>
@@ -36,64 +37,71 @@
 
         </div>
 
-        <div class="section" id="pagina2" style="background-color: white !important;">
+        <div id="pagina2" style="background-color: white !important;">
             <div id="section2">
                 <div class="card-group">
                     <div class="card">
                     <div class="card-body" id="sobre">
-                        <h5 class="card-title">Sobre mim</h5>
-                        <p class="card-text">Meu nome é Matheus Torres, tenho 17 anos, atualmente estou cursando o 3° ano do ensino médio.</p>
-                        <p class="card-text">Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.</p>
-                        <p class="card-text">Em março de 2022 ingressei na NSC TV de Florianópolis como jovem aprendiz do departameno de TI, onde
+                        <h5 class="card-title" id="sobremim">Sobre mim</h5>
+                        <p class="card-text" id="p1">Meu nome é Matheus Torres, tenho 17 anos, atualmente estou cursando o 3° ano do ensino médio.</p>
+                        <p class="card-text" id="p2">Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.</p>
+                        <p class="card-text" id="p3">Em março de 2022 ingressei na NSC TV de Florianópolis como jovem aprendiz do departameno de TI, onde
                         inicialmente eu trabalhei como suporte. Em jJunho de 2022, atuei como QA, testando os sites do Grupo NC, NSC TOTAL, Aplicativo do NSC TOTAL, 
                         realizando roteiro de testes e também  tive contato com a metodologia ágil (Jira e Trello).
                         </p>
                     </div>
                     </div>
                     
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Experiências</h5>
+                    <div class="card"  id="box-hb-xp" style="background-color: white !important;color: black !important;">
+                    <div class="card-body"  style="background-color: white !important;color: black !important;">
+                        <h5 class="card-title" id="xp">Experiências</h5>
                         <p style="background-color: white !important;color: black !important; font-weight: bold;">NSC TV</p>
-                        <p class="card-text">Jovem Aprendiz</p>
+                        <p class="card-text" id="aprendiz">Jovem Aprendiz</p>
+                        <p class="card-text" style="background-color: white !important; color: black !important;"><small class="text-muted" style="background-color: white !important; color: black !important;">07/03/22 a 07/03/24</small></p>
                     </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title">Habilidades</h5>
-                        <p class="card-text">REACT NATIVE - INTERMEDIÁRIO</p>
-                        <p class="card-text">REACT JS - INTERMEDIÁRIO</p>
-                        <p class="card-text">PHP - BÁSICO</p>
-                        <p class="card-text">LUA - INTERMEDIÁRIO</p>
+                    <div class="card-body" style="background-color: white !important;color: black !important;">
+                        <h5 class="card-title" id="habilidades">Habilidades</h5>
+                        <p class="card-text">REACT NATIVE</p>
+                        <p class="card-text">REACT JS</p>
+                        <p class="card-text">PHP</p>
+                        <p class="card-text">LUA</p>
                         <p class="card-text">HTML E CSS</p>
-                        <p class="card-text">NODE - BÁSICO</p>
-                        <p class="card-text">OFFICE 365 - INTERMEDIÁRIO</p>
-                        <p class="card-text">WINDOWNS 10 E 11 - INTERMEDIÁRIO</p>
-                        <p class="card-text">ILUSTRATOR - BÁSICO</p>
-                        <p class="card-text">CANVA - INTERMEDIÁRIO</p>
-                        <p class="card-text">TRABALHO EM EQUIPE</p>
-                        <p class="card-text">PYTHON - INTERMEDIÁRIO</p>
-                        <p class="card-text">PROATIVIDADE</p>
+                        <p class="card-text">NODE</p>
+                        <p class="card-text">OFFICE 365</p>
+                        <p class="card-text">WINDOWNS 10/11</p>
+                        <p class="card-text">ILUSTRATOR</p>
+                        <p class="card-text">CANVA</p>
+                        <p class="card-text" id="equipe">TRABALHO EM EQUIPE</p>
+                        <p class="card-text">PYTHON</p>
+                        <p class="card-text" id="proatividade">PROATIVIDADE</p>
                     </div>
                     </div>
 
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Cursos</h5>
+                    <div class="card" style="background-color: white !important;color: black !important;">
+                    <div class="card-body" id="curso-box"  style="background-color: white !important;color: black !important;">
+                        <h5 class="card-title" id="cursos">Cursos</h5>
                         <p style="background-color: white !important;color: black !important; font-weight: bold;">CPDI FLORIANÓPOLIS</p>
-                        <p class="card-text">EUREKA - EU FAÇO JOGOS E SITES</p>
-                        <p class="card-text">DESENVOLVIMENTO GAMES BÁSICO</p>
+                        <p class="card-text" id="eureka">EUREKA - EU FAÇO JOGOS E SITES</p>
+                        <p class="card-text" id="games">DESENVOLVIMENTO GAMES BÁSICO</p>
                         <p style="background-color: white !important;color: black !important; font-weight: bold;">FUNDAÇÃO BRADESCO</p>
-                        <p class="card-text">FUNDAMENTOS DA TI: HARDWARE E SOFTWARE</p>
+                        <p class="card-text" id="ti">FUNDAMENTOS DA TI: HARDWARE E SOFTWARE</p>
                         <p style="background-color: white !important;color: black !important; font-weight: bold;">MASTER PREMIUM</p>
-                        <p class="card-text">ROTINAS ADMINISTRATIVAS</p>
-                        <p class="card-text">ASSISTENTE CONTÁBIL</p>
-                        <p class="card-text">OPERADOR DE CAIXA</p>
-                        <p class="card-text">CRÉDITO E COBRANÇA</p>
-                        <p class="card-text">ASSISTENTE DE RH</p>
-                        <p class="card-text">EXEL BÁSICO E INTERMEDIÁRIO</p>
+                        <p class="card-text" id="adm">ROTINAS ADMINISTRATIVAS</p>
+                        <p class="card-text" id="contabil">ASSISTENTE CONTÁBIL</p>
+                        <p class="card-text" id="caixa">OPERADOR DE CAIXA</p>
+                        <p class="card-text" id="cobranca">CRÉDITO E COBRANÇA</p>
+                        <p class="card-text" id="rh">ASSISTENTE DE RH</p>
+                        <p class="card-text" id="exel">EXEL BÁSICO E INTERMEDIÁRIO</p>
                     </div>
                     </div>
-              </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="pagina3">
+            
         </div>
         
     </body>
