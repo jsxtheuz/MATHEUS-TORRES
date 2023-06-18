@@ -1,21 +1,96 @@
-function ingles(){
-
+function ptbr() {
     const portugues  = document.getElementById("portugues");
     const ingless  = document.getElementById("ingles");
     const trabalho = document.getElementById("work");
- 
-    portugues.innerText = "Portuguese";
-    ingless.innerText= "English";
-    trabalho.innerText = "Junior Developer";
- }
- 
- function ptbr(){
- 
-    const portugues  = document.getElementById("portugues");
-    const ingless  = document.getElementById("ingles");
-    const trabalho = document.getElementById("work");
+    const sobremim = document.getElementById("sobremim");
+    const p1 = document.getElementById("p1");
+    const p2 = document.getElementById("p2");
+    const p3 = document.getElementById("p3");
+    const xp = document.getElementById("xp");
+    const aprendiz = document.getElementById("aprendiz");
+    const habilidades = document.getElementById("habilidades");
+    const equipe = document.getElementById("equipe");
+    const proatividade = document.getElementById("proatividade");
+    const cursos = document.getElementById("cursos");
+    const eureka = document.getElementById("eureka");
+    const games = document.getElementById("games");
+    const ti = document.getElementById("ti");
+    const adm = document.getElementById("adm");
+    const contabil = document.getElementById("contabil");
+    const caixa = document.getElementById("caixa");
+    const cobranca = document.getElementById("cobranca");
+    const rh = document.getElementById("rh");
+    const exel = document.getElementById("exel");
     
     portugues.innerText = "Português";
     ingless.innerText= "Inglês";
     trabalho.innerText = "Desenvolvedor Júnior";
- }
+    sobremim.innerText = "Sobre mim";
+    p1.innerText = "Meu nome é Matheus Torres, tenho 17 anos, atualmente estou cursando o 3° ano do ensino médio."
+    p2.innerText = "Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.";
+    p3.innerText = "Em março de 2022 ingressei na NSC TV de Florianópolis como jovem aprendiz do departameno de TI, onde inicialmente eu trabalhei como suporte. Em jJunho de 2022, atuei como QA, testando os sites do Grupo NC, NSC TOTAL, Aplicativo do NSC TOTAL, realizando roteiro de testes e também tive contato com a metodologia ágil (Jira e Trello).";
+    xp.innerText = "Experiências";
+    aprendiz.innerText = "Jovem Aprendiz";
+    habilidades.innerText = "Habilidades";
+    equipe.innerText = "TRABALHO EM EQUIPE";
+    proatividade.innerText = "PROATIVIDADE";
+    cursos.innerText = "Cursos";
+    eureka.innerText = "EUREKA - EU FAÇO JOGOS E SITES";
+    games.innerText = "DESENVOLVIMENTO GAMES BÁSICO";
+    ti.innerText = "FUNDAMENTOS DA TI: HARDWARE E SOFTWARE";
+    adm.innerText = "ROTINAS ADMINISTRATIVAS";
+    contabil.innerText = "ASSISTENTE CONTÁBIL";
+    caixa.innerText = "OPERADOR DE CAIXA";
+    cobranca.innerText = "CRÉDITO E COBRANÇA";
+    rh.innerText = "ASSISTENTE DE RH";
+    exel.innerText = "EXEL BÁSICO E INTERMEDIÁRIO"
+};
+
+
+function zinga() {
+    const portugues  = document.getElementById("portugues");
+    const ingless  = document.getElementById("ingles");
+    const trabalho = document.getElementById("work");
+    const sobremim = document.getElementById("sobremim");
+    const p1 = document.getElementById("p1");
+    const p2 = document.getElementById("p2");
+    const p3 = document.getElementById("p3");
+    const xp = document.getElementById("xp");
+    const aprendiz = document.getElementById("aprendiz");
+    const habilidades = document.getElementById("habilidades");
+    const equipe = document.getElementById("equipe");
+    const proatividade = document.getElementById("proatividade");
+    const cursos = document.getElementById("cursos");
+    const eureka = document.getElementById("eureka");
+    const games = document.getElementById("games");
+    const ti = document.getElementById("ti");
+    const adm = document.getElementById("adm");
+    const contabil = document.getElementById("contabil");
+    const caixa = document.getElementById("caixa");
+    const cobranca = document.getElementById("cobranca");
+    const rh = document.getElementById("rh");
+    const exel = document.getElementById("exel");
+ 
+    portugues.innerText = "Portuguese";
+    ingless.innerText= "English";
+    trabalho.innerText = "Junior Developer";
+    sobremim.innerText = "About me";
+    p1.innerText = "My name is Matheus Torres, I'm 17 years old, I'm currently in the 3rd year of high school."
+    p2.innerText = "I fell in love with the technology area in 2021, when I started the Florianópolis CPDI programming course out of curiosity to know how games worked.";
+    p3.innerText = "In March 2022 I joined NSC TV in Florianópolis as a young apprentice in the IT department, where I initially worked as support. In June 2022, I worked as a QA, testing the websites of the NC Group, NSC TOTAL, the NSC TOTAL Application, carrying out a test script and also had contact with the agile methodology (Jira and Trello).";
+    xp.innerText = "Experiences";
+    aprendiz.innerText = "Young apprentice";
+    habilidades.innerText = "Skills";
+    equipe.innerText = "TEAM WORK";
+    proatividade.innerText = "PROACTIVITY";
+    cursos.innerText = "Courses";
+    eureka.innerText = "EUREKA - I MAKE GAMES AND WEBSITES";
+    games.innerText = "BASIC GAMES DEVELOPMENT";
+    ti.innerText = "IT FUNDAMENTALS: HARDWARE AND SOFTWARE";
+    adm.innerText = "ADMINISTRATIVE ROUTINES";
+    contabil.innerText = "ACCOUNTING ASSISTANT";
+    caixa.innerText = "CASH OPERATOR";
+    cobranca.innerText = "CREDIT AND CHARGING";
+    rh.innerText = "HR ASSISTANT";
+    exel.innerText = "BASIC AND INTERMEDIATE EXEL";
+};
