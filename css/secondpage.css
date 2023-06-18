@@ -1,15 +1,11 @@
 #pagina2{
     color: black !important;
     background-color: white !important;
-    font-family: Segoe UI;
+    font-family: Segoe UI !important;
     justify-content: center !important;
     align-items: center !important;
-}
-
-*{
-
-    background-color: white ;
-    color: black ;
+    width: 100vw !important;
+    height: 130vh !important;
 }
 
 #section2{
@@ -17,23 +13,29 @@
     color: black !important;
     background-color: white !important;
     display: inline-block;
-    width: 80%;
+    width: 100%;
     margin-left: auto !important;
     margin-right: auto !important;
     height: 70%;
     justify-content: center !important;
-    margin-left: 13% !important;
+    align-items: center !important;
+
 }
 
 
-.card-group{
+#section2 > .card-group{
     background-color: white !important;
     color: black !important;
     border: hidden !important;
     width: 100% !important;
 }
 
-.card-body, .card-title, .card-text{
+.card-body{
+    justify-content: center !important;
+    margin: auto;
+}
+
+#section2 > .card-group > .card > .card-body, #section2 > .card-group > .card > .card-body >.card-title, #section2 > .card-group > .card > .card-body > .card-text{
     background-color: white !important;
     color: black !important;
     height: 100% !important;
@@ -45,6 +47,7 @@
     color: black !important;
     height: 100% !important;
     border: hidden !important;
+    justify-content: center !important;
 }
 
 .card-title{
@@ -57,4 +60,8 @@
     width: 75%;
     background-color: white !important;
     color: black !important;
+}
+
+#aprendiz{
+    font-size: 21px !important;
 }
