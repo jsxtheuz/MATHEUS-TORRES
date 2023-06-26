@@ -46,6 +46,7 @@
     height: 100% !important;
     border: hidden !important;
     justify-content: center !important;
+    display: flex !important;
 }
 
 .card-title{
