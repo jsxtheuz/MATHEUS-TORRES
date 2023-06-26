@@ -4,8 +4,6 @@
     font-family: Segoe UI !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 100vw !important;
-    height: 130vh !important;
 }
 
 #section2{
@@ -62,6 +60,30 @@
     color: black !important;
 }
 
-#aprendiz{
-    font-size: 21px !important;
+.imagens-redes-socias{
+    background-color: white !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#img-wpp, #img-git{
+    margin-block-end:7px;
+}
+
+#img-git, #img-wpp{
+    margin-top: 5px;
+}
+
+.a:visited, .a:hover, .a:link{
+    color: black!important;
+    background-color: white !important;
+    text-decoration: none;
+}
+
+.card-text{
+    color: black !important;
+    background-color: white !important;
+    text-decoration: none;
 }
