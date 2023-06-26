@@ -75,6 +75,10 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    animation-name: pisca-pisca;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes pisca-pisca {
@@ -85,4 +89,12 @@
     to {
       opacity: 1;
     }
-  }
+}
+
+
+@media only screen and (max-width: 800px) {
+    #curso-box{
+        text-align: center;
+        word-wrap: break-word;
+    }
+}
