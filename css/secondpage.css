@@ -88,3 +88,8 @@
     background-color: white !important;
     text-decoration: none;
 }
+
+#box-hb-xp > p{
+    display: flex !important;
+    justify-content: center !important;
+}
