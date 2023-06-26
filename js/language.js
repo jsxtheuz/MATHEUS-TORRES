@@ -1,3 +1,6 @@
+const btn1 = document.getElementById('button#portugues');
+const btn2  = document.getElementById('ingles');
+
 function ptbr() {
     const portugues  = document.getElementById("portugues");
     const ingless  = document.getElementById("ingles");
