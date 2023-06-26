@@ -16,7 +16,7 @@ header{
     width: 100%;
     margin-top: auto;
     justify-content: center;
-    border: 0px none !important;
+    border: 0px hidden !important;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
     display: inline-block;
