@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="./css/header.css" />
         <link rel="stylesheet" href="./css/firstpage.css" />
         <link rel="stylesheet" href="./css/secondpage.css" />
-        <link rel="stylesheet" href="./css/thirdpage.css" />
         <script type="text/javascript" src="./js/language.js"></script>
         <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -18,7 +17,6 @@
     <body>
 
         <header>
-            <img class="planet" width="33px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZklEQVR4nO3WsYrCQBAG4AGLBEkRBQutzUNY5hX0EYQUYi9oKz5GuryBSCohTbAxVcQm4gOooCDBRv5j0q9uvAnHcffDVjs7HyxhskRE+KFF/zBUt2BZFmazGZIkwf1+L9Z2u8V0Oi32Krlqx3FwOBygSpZl6Ha7snC9Xsd+v8e77HY7mKYpB4/HY+hmNBrJwVEUacPr9VoOvlwu2vD5fJaDH4+HNsy1YvDxeNSG+csXg1erlTa8XC7lYM/ztOHhcCgHN5tN3G63t+j1ekWj0ZCDiagYle8ymUx0UWjDPJE2m40SjeMYhmHIw0SETqejhNvtdhkUpf/HqpTtQ78CHgwGSrjf78vCtVoNrusiCAI8n08lzHtcw7V85mO41+vB932cTieUDZ/hs9xDG261WgjDEFLhXtzzJcxT59Xz5tPws8i2bTW8WCxQVebzuRrmN1NVSdNUDed5Xhmc5/n3Bojgor8FfwE4uOdkhykjmQAAAABJRU5ErkJggg==">
             <button id="portugues" onclick="ptbr()">Português</button>
             <button id="ingles" onclick="zinga()">Inglês</button>
         </header>
@@ -32,12 +30,11 @@
             <p id=work>Desenvolvedor Júnior</p>
 
             <div class="box-da-imagem">
-                <a href="#pagina2"><img class="setaprabaixo" width="35px" heigth="35px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4klEQVR4nO3XQQtFQBAH8FkHcXRY5aJ8HnefWpSTknJ1cOX4f7m9R8/OLJLaqbnRr9Eyf0REeKjpPXAURT+tlLoXzvMc4zhiW9M0oSiK++C+73foNy6cnNgXz/OMowrD0MFwj5rc4SL3OtEDHxCl1G4RrL0syyGcJMnuHs/z+HBd17iquq5DEARmeJ22LMtLYd/3eRNrrdE0zWl0GAZkWSbbTvokbkBxuBZtcQYK4z6W4kwUrCDAxQUo2AnEhAtRiKLPP9wChTjebnFLFFa5Oo5jVFWFtm2RpqkNinf9SdCb4Q85wzV3Lr1qjAAAAABJRU5ErkJggg=="></a>
-            </div> 
+                <a href="#pagina2"><img class="setaprabaixo" width="35px" heigth="35px" src="data:image/png;base64,iVBORw0KGgoAAAANSUW
 
         </div>
 
-        <div id="pagina2" style="background-color: white !important;">
+        <div class="section" id="pagina2" style="background-color: white !important;">
             <div id="section2">
                 <div class="card-group">
                     <div class="card">
@@ -95,14 +92,29 @@
                         <p class="card-text" id="exel">EXEL BÁSICO E INTERMEDIÁRIO</p>
                     </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title">Redes Sociais</h5>
+                            <p style="background-color: white !important;color: black !important; font-weight: bold; margin-block-end: -1px">Whatsapp</p>
+                            <a target="_blank" href="https://wa.me/5548984654412" class="a"><img class="imagens-redes-socias" id="img-wpp" src="https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-5.png" alt="Whatsapp" width="55px" height="55px" />
+                            <p class="card-text">+55 (48) 98465-4412</p></a>
+
+                            <p style="background-color: white !important;color: black !important; font-weight: bold; margin-block-end: -1px; margin-top: 20px;">Instagram</p>
+                            <a target="_blank" href="https://instagram.com/iamttheuz" class="a"><img class="imagens-redes-socias" id="img-insta" src="https://www.goiania.go.leg.br/imagens/instagram-icon.png/image" alt="Instagram" width="60px" height="60px" />
+                            <p class="card-text">Iamttheuz</p></a>
+
+                            <p style="background-color: white !important;color: black !important; font-weight: bold; margin-block-end: -1px; margin-top: 20px;">Linkedin</p>
+                            <a target="_blank" href="https://www.linkedin.com/in/matheus-torres-jsxtheuz/" class="a"><img class="imagens-redes-socias" id="img-lnk" src="https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png" alt="Linkedin" width="70px" height="70px" />
+                            <p class="card-text">Matheus Torres</p></a>
+
+                            <p style="background-color: white !important;color: black !important; font-weight: bold;  margin-block-end: -1px; margin-top: 20px;">Github</p>
+                            <a target="_blank" href="https://github.com/jsxtheuz" class="a"><img class="imagens-redes-socias" id="img-git" src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png" alt="Github" width="55px" height="55px" />
+                            <p class="card-text">jsxtheuz</p></a>
+                        </div>
+                    </div>               
                 </div>
-            </div>
-        </div>
-
-
-        <div id="pagina3">
-            
-        </div>
-        
+            </div> 
+        </div> 
     </body>
 </html>
