@@ -16,7 +16,7 @@ header{
     width: 100%;
     margin-top: auto;
     justify-content: center;
-    border: 0px hidden !important;
+    border: none !important;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
     display: inline-block;
@@ -25,7 +25,7 @@ header{
 button{
     background-color: black !important;
     color: white !important;
-    border: transparent;
+    border: none !important;
     font-weight: bold;
     font-family: "Segoe UI";
     font-size: 17PX;
