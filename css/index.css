@@ -1,0 +1,169 @@
+html{
+    background-color: black !important;
+    color: white !important;
+    overflow-x: hidden;
+}
+
+.principal{
+    width: 100vw;
+    height: 95vh;
+    background-color: black !important;
+    color: white !important;
+    
+}
+
+.box-de-cima{
+    height: 45vh;
+    width: 80vw;
+    justify-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    border-block-end: 1px solid gray;
+}
+
+.inlineblok{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#inlineleft{
+    float: left;
+    width: 25%;
+    margin-left: 10%;
+}
+
+#inlineright{
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.borda-img{
+    border-radius: 210px;
+    border-color: white;
+    border: 2px solid;
+    width: 235px;
+    height: 235px;
+}
+
+.borda-img > img{
+    border-radius: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.texts{
+    width: 100%;
+}
+
+.texto-de-cima{
+    display: inline-block;
+    width: 70%;
+}
+
+.texto-de-cima > p{
+    float: left;
+    width: 50%;
+    font-size: 20PX;
+}
+
+#idade{
+    font-size: 17px; 
+    width: 30% !important;
+}
+
+.texto-de-baixo{
+    display: inline-block !important;
+    width: 70%;
+}
+
+#p1{
+    float: left;
+    width: 50%;
+}
+
+#p2{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+a, a:visited, a:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+.box-de-baixo{
+    height: 50vh;
+    width: 80vw;
+    justify-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-inline{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.buttons-inline > button{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+.buttons-inline > button:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border-top: 1px white solid;
+    color: white;
+}
+
+#render{
+    width: 100%;
+    margin-top: 3vh;
+    height: 60vh ;
+}
+
+.sobre-mim{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    background-color: black !important;
+    color: white !important;
+}
+
+#body-xp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+}

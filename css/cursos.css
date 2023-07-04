@@ -1,0 +1,33 @@
+#inlinegeral{
+    display: inline-block;
+}
+
+#inline1{
+    height: 100%;
+    float: left;
+    width: 55%;
+}
+
+#inline2{
+    height: 100%;
+    width: 35%;
+    float: right;
+}
+
+
+#inline-one{
+    height: 100%;
+    float: left;
+    width: 40%;
+}
+
+
+#inline-two{
+    height: 100%;
+    float: right;
+    width: 50%;
+}
+
+#width-reduzida{
+    width: 50% !important;
+}
