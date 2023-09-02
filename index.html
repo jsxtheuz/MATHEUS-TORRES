@@ -50,13 +50,24 @@
 
             <div class="box-de-baixo">
                 <div class="buttons-inline">
-                    <button type="button" onclick="Sobremim()">Sobre Mim</button>
+                    <button type="button" id="button-sobre-mim" onclick="Sobremim()">Sobre Mim</button>
                     <button type="button" onclick="Cursos()">Certificações</button>
                     <button type="button" onclick="Xp()">Experiências</button>
                     <button type="button" onclick="Skills()">Habilidades</button>
                 </div>
 
-                <div id="render"></div>
+                <div id="render">
+                    <div class="sobre-mim">
+                        <p>Meu nome é Matheus Torres, sou Desenvolvedor Júnior Fullstak e Técnico de Informática, tenho 17 anos, atualmente estou cursando o 3° ano do ensino médio.</p>
+                    
+                        <p>Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.</p>
+                        
+                        <p>Em março de 2022 ingressei na NSC TV de Florianópolis como jovem aprendiz do departameno de TI, onde inicialmente eu trabalhei como suporte. Em Junho de 2022, atuei como QA, testando os sites do Grupo NC, NSC TOTAL, Aplicativo do NSC TOTAL, realizando roteiro de testes e também tive contato com a metodologia ágil (Jira e Trello).</p>
+                    
+                        <p>Desde então venho me aperfeiçoando e buscando sempre aprender coisas novas. Busco a cada dia me tornar o melhor no que eu faço!  </p>
+                    </div>
+    
+                </div>
             </div>
 
         </div>
@@ -64,16 +75,22 @@
 
         <script type="text/babel">
 
+            window.onload = () => {
+
+                var btn_primary =  document.getElementById("button-sobre-mim");
+                btn_primary.focus()
+            }
+
             function Sobremim(){
                 ReactDOM.render(
 
-                <div class={"sobre-mim"}>
+                <div class="sobre-mim">
                     <p>Meu nome é Matheus Torres, sou Desenvolvedor Júnior Fullstak e Técnico de Informática, tenho 17 anos, atualmente estou cursando o 3° ano do ensino médio.</p>
-                
-                    <p>Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.</p>
                     
+                    <p>Me apaixonei pela área da tecnologia em 2021, quando comecei o curso de programação do CPDI de Florianópolis por curiosidade em saber como os jogos funcionavam.</p>
+                        
                     <p>Em março de 2022 ingressei na NSC TV de Florianópolis como jovem aprendiz do departameno de TI, onde inicialmente eu trabalhei como suporte. Em Junho de 2022, atuei como QA, testando os sites do Grupo NC, NSC TOTAL, Aplicativo do NSC TOTAL, realizando roteiro de testes e também tive contato com a metodologia ágil (Jira e Trello).</p>
-                
+                    
                     <p>Desde então venho me aperfeiçoando e buscando sempre aprender coisas novas. Busco a cada dia me tornar o melhor no que eu faço!  </p>
                 </div>
 
@@ -132,7 +149,7 @@
                     <div class={"card-body"} id={"body-xp"}>
                     <h5 class={"card-title"} id={"titulo-xp"}>NSC TV</h5>
                     <p class={"card-text"} id={"texto-xp"}>JOVEM APRENDIZ - TI</p>
-                    <p class={"card-text"} id={"texto-xp"}>Suporte: Realizava Atendimento ao usuário e manutenção de computadores</p>
+                    <p class={"card-text"} id={"texto-xp"}>Suporte: Realizava Atendimento ao usuário, manutenção de computadores e telefonia fixa</p>
                     <p class={"card-text"} id={"texto-xp"}><small class={"text-muted"}>Março 2022 - Julho  2022</small></p>
                     <p class={"card-text"} id={"texto-xp"}>Digital: Realizava roteiro de testes e testes em sites da NSC e do GrupoNC</p>
                     <p class={"card-text"} id={"texto-xp"}><small class={"text-muted"}>Julho 2022 - Fevereiro  2023</small></p>
