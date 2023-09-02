@@ -1,149 +1,60 @@
 @media screen and (max-width: 600px){
-
-    #inlineright{
-        margin-left: 30%;
-        float: right;
-        width: 40%
-    }
-
-    #inlineleft{
-        float: left;
-        width: 25%;
-        margin-left: 0%;
-    }
-
     .box-de-cima{
-        height: 45vh;
-        width: 100vw;
-        justify-content: center !important;
+        height: 40vh;
+        width: 110vw;
         margin-left: auto;
         margin-right: auto;
         margin-top: 5vh;
-        border-block-end: none
+        border-block-end: none;
+        align-items: center;
+        justify-content: center !important;
+        flex-direction: column !important;
     }
-
-    .texto-de-cima{
-        display: inline-block;
+    
+    #inlineleft{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        height: 35%;
         width: 100%;
     }
-
-    .texto-de-cima > p{
-        float: left;
-        width: 60%;
-        font-size: 20PX;
-    }
-
-    #idade{
-        font-size: 17px; 
-        width: 30% !important;
-        margin-left: 5%;
-    }
-
-    .texto-de-baixo{
-        display: inline-block !important;
-        width: 100%;
-    }
-
-    .buttons-inline > button{
-        background-color: transparent;
-        color: white;
-        font-size: 18px;
-        outline: 0px auto -webkit-focus-ring-color;
-        outline-offset: 0px;
-        border: none;
-        height: 40px;
-        width: 115px;
-    }
-
-    #render{
-        width: 100%;
-        margin-top: 3vh;
-        height: 100vh ;
-    }
-
-    #inlinegeral{
-        display: block;
-    }
-    
-    #inline1{
-        width: 80%;
-        height: auto;
-        margin-left:auto ;
-        margin-right: auto;
-        float: none;
-    }
-    
-    #inline2{
-        height: auto;
-        width: 80%;
-        margin-left:auto ;
-        margin-right: auto;
-        float: none;
-    }
-    
-    #width-reduzida{
-        width: 80% !important;
-    }
-
-
-    #inline-one{
-        height: 100%;
-        float: left;
-        width: 50%;
-    }
-    
-    
-    #inline-two{
-        height: 100%;
-        float: right;
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1050px) {
 
     #inlineright{
-        margin-left: 10%;
-        float: right;
-        width: 40%
+        height: 55%;
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none;
     }
 
-    #inlineleft{
-        float: left;
-        width: 25%;
-        margin-left: 15%;
+    .borda-img{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border-radius: 210px;
+        border-color: white;
+        border: 2px solid;
+        width: 125px;
+        height: 125px;
     }
-
-    .box-de-cima{
-        height: 45vh;
-        width: 100vw;
-        justify-content: center !important;
+    
+    .borda-img > img{
+        width: 100px;
+        height: 100px;
+        border-radius: 210px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5vh;
-        border-block-end: 1px solid gray;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .texts{
+        text-align: center;
     }
 
     .texto-de-cima{
-        display: inline-block;
-        width: 100%;
-    }
-
-    .texto-de-cima > p{
-        float: left;
-        width: 60%;
-        font-size: 20PX;
-    }
-
-    #idade{
-        font-size: 17px; 
-        width: 30% !important;
-        margin-left: 5%;
-    }
-
-    .texto-de-baixo{
-        display: inline-block !important;
-        width: 100%;
+        text-align: center;
     }
 
     .buttons-inline > button{
