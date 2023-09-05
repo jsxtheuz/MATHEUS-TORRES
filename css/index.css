@@ -124,16 +124,18 @@ a, a:visited, a:hover{
     background-color: transparent;
     color: white;
     font-size: 18px;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
+    outline: 0px !important;
+    outline-offset: 0px !important;
+    box-shadow: 0 0 0 0 !important;
     border: none;
     height: 40px;
     width: 150px;
 }
 
 .buttons-inline > button:focus{
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
+    outline: 0px !important;
+    box-shadow: 0 0 0 0 !important;
+    outline-offset: 0px !important;
     border-top: 1px white solid;
     color: white;
 }
