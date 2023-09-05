@@ -116,8 +116,9 @@ a, a:visited, a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
+    outline: 0px !important;
+    outline-offset: 0px !important;
+    box-shadow: 0 0 0 0 !important;
 }
 
 .buttons-inline > button{
