@@ -61,8 +61,9 @@
         background-color: transparent;
         color: white;
         font-size: 18px;
-        outline: 0px auto;
-        outline-offset: 0px;
+         outline: 0px !important;
+        outline-offset: 0px !important;
+        box-shadow: 0 0 0 0 !important;
         border: none;
         height: 40px;
         width: 115px;
