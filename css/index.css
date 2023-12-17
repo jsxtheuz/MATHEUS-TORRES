@@ -67,6 +67,7 @@ html{
 .texto-de-cima{
     display: inline-block;
     width: 70%;
+    font-size: 20px !important;
 }
 
 .texto-de-cima > p{
@@ -167,6 +168,6 @@ a, a:visited, a:hover{
 #body-xp{
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: 110%;
 }
