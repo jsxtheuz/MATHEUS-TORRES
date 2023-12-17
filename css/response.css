@@ -15,15 +15,17 @@
         margin-left: auto !important;
         margin-right: auto !important;
         height: 35%;
-        width: 100%;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     #inlineright{
         height: 55%;
-        width: 100%;
+        width: 110%;
         margin-left: auto !important;
         margin-right: auto !important;
-        float: none;
     }
 
     .borda-img{
@@ -55,7 +57,14 @@
 
     .texto-de-cima{
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
     }
+
 
     .buttons-inline > button{
         background-color: transparent;
@@ -75,8 +84,31 @@
         height: 100vh ;
     }
 
+    #inlineright{
+        margin-top: 20px;
+    }
+
+    #inlineleft{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+        padding: 0 !important;
+        margin: 0;
+        flex-direction: row !important;
+    }
+
+    .borda-img{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+        padding: 0 !important;
+        margin: 0;
+        float: none !important;
+    }
+
     #inlinegeral{
         display: block;
+        flex-direction: row !important;
     }
     
     #inline1{
@@ -111,5 +143,9 @@
         height: 100%;
         float: right;
         width: 50%;
+    }
+
+    #card-xp{
+        height: 120% !important;
     }
 }
