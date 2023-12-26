@@ -37,6 +37,10 @@
         width: 125px;
         height: 125px;
     }
+
+    #nome{
+        font-weight: bold;
+    }
     
     .borda-img > img{
         width: 100px;
@@ -63,6 +67,10 @@
         align-items: center;
         text-align: center;
         width: 100%;
+    }
+
+    .box-de-baixo{
+        margin-top: 5%;
     }
 
 
