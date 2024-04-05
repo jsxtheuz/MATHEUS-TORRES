@@ -1,12 +1,12 @@
 @media screen and (max-width: 600px){
 
     html{
-    overflow-y: hidden;
     overflow-x: hidden;
     outline: 0px !important;
-        outline-offset: 0px !important;
-        box-shadow: 0 0 0 0 !important;
+    outline-offset: 0px !important;
+    box-shadow: 0 0 0 0 !important;
     }
+
     }
     .box-de-cima{
         height: 40vh;
