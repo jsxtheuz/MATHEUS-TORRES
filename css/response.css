@@ -1,4 +1,10 @@
 @media screen and (max-width: 600px){
+
+    html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    }
     .box-de-cima{
         height: 40vh;
         width: 110vw;
